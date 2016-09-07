@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'bit';
+  src: url('styles/icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bit' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "\e145";
+}
+.icon-arrow_back:before {
+  content: "\e5c4";
+}
+.icon-photo_camera:before {
+  content: "\e412";
+}
+.icon-check:before {
+  content: "\e5ca";
+}
+.icon-navigate_before:before {
+  content: "\e408";
+}
+.icon-navigate_next:before {
+  content: "\e409";
+}
+.icon-close:before {
+  content: "\e5cd";
+}
+.icon-mode_edit:before {
+  content: "\e254";
+}
+.icon-drafts:before {
+  content: "\e151";
+}
+.icon-markunread:before {
+  content: "\e159";
+}
+.icon-error:before {
+  content: "\e000";
+}
+.icon-favorite:before {
+  content: "\e87d";
+}
+.icon-favorite_border:before {
+  content: "\e87e";
+}
+.icon-fullscreen:before {
+  content: "\e5d0";
+}
+.icon-fullscreen_exit:before {
+  content: "\e5d1";
+}
+.icon-link:before {
+  content: "\e157";
+}
+.icon-shopping_cart:before {
+  content: "\e8cc";
+}
+.icon-local_offer:before {
+  content: "\e54e";
+}
+.icon-more_horiz:before {
+  content: "\e5d3";
+}
+.icon-more_vert:before {
+  content: "\e5d4";
+}
+.icon-person:before {
+  content: "\e7fd";
+}
+.icon-play_arrow:before {
+  content: "\e037";
+}
+.icon-power_settings_new:before {
+  content: "\e8ac";
+}
+.icon-public:before {
+  content: "\e80b";
+}
+.icon-refresh:before {
+  content: "\e5d5";
+}
+.icon-remove:before {
+  content: "\e15b";
+}
+.icon-report:before {
+  content: "\e160";
+}
+.icon-warning:before {
+  content: "\e002";
+}
+.icon-sentiment_dissatisfied:before {
+  content: "\e811";
+}
+.icon-sentiment_satisfied:before {
+  content: "\e813";
+}
+.icon-settings:before {
+  content: "\e8b8";
+}
+.icon-share:before {
+  content: "\e80d";
+}
+.icon-shopping_basket:before {
+  content: "\e8cb";
+}
+.icon-textsms:before {
+  content: "\e0d8";
+}
+.icon-thumb_down:before {
+  content: "\e8db";
+}
+.icon-thumb_up:before {
+  content: "\e8dc";
+}
+.icon-zoom_in:before {
+  content: "\e8ff";
+}
+.icon-zoom_out:before {
+  content: "\e900";
+}
+.icon-zoom_out_map:before {
+  content: "\e56b";
+}

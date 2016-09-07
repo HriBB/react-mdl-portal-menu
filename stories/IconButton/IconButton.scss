@@ -1,0 +1,43 @@
+@import 'variables';
+
+.bit-icon-button {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 100%;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+
+  &:focus,
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  i {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+
+    &::before {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+
+  .icon-navigate_before,
+  .icon-navigate_next {
+    font-size: 26px;
+  }
+
+}

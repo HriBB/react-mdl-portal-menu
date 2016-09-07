@@ -1,0 +1,36 @@
+@import 'variables';
+
+.bit-button {
+  width: auto;
+  height: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0 16px;
+  border: none;
+  color: #fff;
+  background: $color-primary;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  outline: none;
+
+  &:hover {
+    background: darken($color-primary, 5%);
+  }
+
+  &:focus {
+    background: darken($color-primary, 10%);
+
+    &:hover {
+      background: darken($color-primary, 15%);
+    }
+
+    &:active {
+      background: darken($color-primary, 20%);
+    }
+  }
+
+}
