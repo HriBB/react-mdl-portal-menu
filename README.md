@@ -33,7 +33,6 @@ open http://localhost:9002/
 
 ## TODO
 
-- [ ] Add usage examples
 - [ ] Add some tests
 - [x] Pray for a good `Menu` component in [`mdl v2`](https://github.com/google/material-design-lite/issues/4475)
 
