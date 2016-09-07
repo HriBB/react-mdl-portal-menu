@@ -1,10 +1,11 @@
-import React, { Component, PropTypes, Children, cloneElement } from 'react'
+import React, { Component, PropTypes, cloneElement } from 'react'
 import ReactDOM, { findDOMNode } from 'react-dom'
 import classnames from 'classnames'
 
 import './Menu.scss'
 
 import KEYCODES from './keycodes'
+
 import MenuList from './MenuList'
 
 export default class Menu extends Component {
@@ -13,14 +14,12 @@ export default class Menu extends Component {
     align: PropTypes.oneOf(['left', 'right']),
     children: PropTypes.any.isRequired,
     className: PropTypes.string,
-    padding: PropTypes.number,
     target: PropTypes.element.isRequired,
     valign: PropTypes.oneOf(['bottom', 'top']),
   }
 
   static defaultProps = {
     align: 'left',
-    padding: 5,
     valign: 'bottom',
   }
 
@@ -61,7 +60,7 @@ export default class Menu extends Component {
     this.closeMenu()
   }
 
-  onTargetMouseUp = (e) => {
+  onTargetMouseUp = () => {
     this.openMenu(this.props)
   }
 
@@ -72,7 +71,7 @@ export default class Menu extends Component {
   }
 
   positionMenu() {
-    const { align, valign, padding } = this.props
+    const { align, valign } = this.props
     const { innerWidth, innerHeight, scrollX, scrollY } = window
     const targetNode = findDOMNode(this)
     const portalNode = findDOMNode(this.portal)

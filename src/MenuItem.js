@@ -12,7 +12,7 @@ export default class MenuItem extends Component {
     tabIndex: PropTypes.number,
   }
 
-  onClick = (e) => {
+  onClick = () => {
     const { closeMenu, onClick } = this.props
     if (onClick) onClick(this.props)
     closeMenu()
