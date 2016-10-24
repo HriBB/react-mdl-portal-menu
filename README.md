@@ -1,6 +1,6 @@
 # React-MDL Portal Menu
 
-# Deprecated! Use Menu component from [react-mdl-extra](https://github.com/HriBB/react-mdl-extra)
+## Deprecated! Use Menu component from [react-mdl-extra](https://github.com/HriBB/react-mdl-extra)
 
 Portal Menu component for [React Material Design Lite](https://github.com/tleunen/react-mdl).
 Menu is rendered to the `body`, so no more parent `overflow:hidden` problems ;)
